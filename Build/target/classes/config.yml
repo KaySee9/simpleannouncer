@@ -1,0 +1,12 @@
+# At the moment, the messages does not support color formatting.  You can only use normal text.
+messages:
+  1: '1st Message'
+  2: '2nd Message'
+  3: '3rd Message'
+  4: '4th Message'
+  5: '5th Message'
+  6: '6th Message'
+  7: '7th Message'
+  8: '8th Message'
+  9: '9th Message'
+  10: '10th Message'

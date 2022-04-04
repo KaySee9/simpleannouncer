@@ -1,0 +1,291 @@
+{
+  "plugin.dependencies": "",
+  "plugin.load-before": "",
+  "plugin.version": "1.0",
+  "debug-build-mode": false,
+  "open-tab": 1,
+  "plugin-components": [
+    {
+      "children": [{
+        "=": "org.bukkit.command.CommandSender#sendMessage(java.lang.String)",
+        "parameters": [
+          {"=": "expr-command-sender"},
+          {
+            "=": "expr-string",
+            "parameters": ["Usage: /announce1 to /announce10"]
+          }
+        ]
+      }],
+      "=": "comp-command",
+      "parameters": [
+        "announce",
+        "",
+        "Main Command of SimpleAnnouncer",
+        "sb.broadcast",
+        "You do not have permission to run this command",
+        "/broadcast"
+      ]
+    },
+    {
+      "children": [{
+        "=": "org.bukkit.Bukkit#broadcastMessage(java.lang.String)",
+        "parameters": [{
+          "=": "expr-config-value",
+          "parameters": [
+            {"=": "expr-plugin-config"},
+            {
+              "=": "expr-string",
+              "parameters": ["messages.1"]
+            }
+          ]
+        }]
+      }],
+      "=": "comp-command",
+      "parameters": [
+        "announce1",
+        "",
+        "Announces 1st message of SimpleBroadcaster in config.yml",
+        "sa.announce.1",
+        "You do not have permission to run this command",
+        "/announce1"
+      ]
+    },
+    {
+      "children": [{
+        "=": "org.bukkit.Bukkit#broadcastMessage(java.lang.String)",
+        "parameters": [{
+          "=": "expr-config-value",
+          "parameters": [
+            {"=": "expr-plugin-config"},
+            {
+              "=": "expr-string",
+              "parameters": ["messages.2"]
+            }
+          ]
+        }]
+      }],
+      "=": "comp-command",
+      "parameters": [
+        "announce2",
+        "",
+        "Announces 2nd message of SimpleBroadcaster in config.yml",
+        "sa.announce.2",
+        "You do not have permission to run this command",
+        "/announce2"
+      ]
+    },
+    {
+      "children": [{
+        "=": "org.bukkit.Bukkit#broadcastMessage(java.lang.String)",
+        "parameters": [{
+          "=": "expr-config-value",
+          "parameters": [
+            {"=": "expr-plugin-config"},
+            {
+              "=": "expr-string",
+              "parameters": ["messages.3"]
+            }
+          ]
+        }]
+      }],
+      "=": "comp-command",
+      "parameters": [
+        "announce3",
+        "",
+        "Announces 3rd message of SimpleBroadcaster in config.yml",
+        "sa.announce.3",
+        "You do not have permission to run this command",
+        "/announce3"
+      ]
+    },
+    {
+      "children": [{
+        "=": "org.bukkit.Bukkit#broadcastMessage(java.lang.String)",
+        "parameters": [{
+          "=": "expr-config-value",
+          "parameters": [
+            {"=": "expr-plugin-config"},
+            {
+              "=": "expr-string",
+              "parameters": ["messages.4"]
+            }
+          ]
+        }]
+      }],
+      "=": "comp-command",
+      "parameters": [
+        "announce4",
+        "",
+        "Announces 4th message of SimpleBroadcaster in config.yml",
+        "sa.announce.4",
+        "You do not have permission to run this command",
+        "/announce4"
+      ]
+    },
+    {
+      "children": [{
+        "=": "org.bukkit.Bukkit#broadcastMessage(java.lang.String)",
+        "parameters": [{
+          "=": "expr-config-value",
+          "parameters": [
+            {"=": "expr-plugin-config"},
+            {
+              "=": "expr-string",
+              "parameters": ["messages.5"]
+            }
+          ]
+        }]
+      }],
+      "=": "comp-command",
+      "parameters": [
+        "announce5",
+        "",
+        "Announces 5th message of SimpleBroadcaster in config.yml",
+        "sa.announce.5",
+        "You do not have permission to run this command",
+        "/announce5"
+      ]
+    },
+    {
+      "children": [{
+        "=": "org.bukkit.Bukkit#broadcastMessage(java.lang.String)",
+        "parameters": [{
+          "=": "expr-config-value",
+          "parameters": [
+            {"=": "expr-plugin-config"},
+            {
+              "=": "expr-string",
+              "parameters": ["messages.6"]
+            }
+          ]
+        }]
+      }],
+      "=": "comp-command",
+      "parameters": [
+        "announce6",
+        "",
+        "Announces 6th message of SimpleBroadcaster in config.yml",
+        "sa.announce.6",
+        "You do not have permission to run this command",
+        "/announce6"
+      ]
+    },
+    {
+      "children": [{
+        "=": "org.bukkit.Bukkit#broadcastMessage(java.lang.String)",
+        "parameters": [{
+          "=": "expr-config-value",
+          "parameters": [
+            {"=": "expr-plugin-config"},
+            {
+              "=": "expr-string",
+              "parameters": ["messages.7"]
+            }
+          ]
+        }]
+      }],
+      "=": "comp-command",
+      "parameters": [
+        "announce7",
+        "",
+        "Announces 7th message of SimpleBroadcaster in config.yml",
+        "sa.announce.7",
+        "You do not have permission to run this command",
+        "/announce7"
+      ]
+    },
+    {
+      "children": [{
+        "=": "org.bukkit.Bukkit#broadcastMessage(java.lang.String)",
+        "parameters": [{
+          "=": "expr-config-value",
+          "parameters": [
+            {"=": "expr-plugin-config"},
+            {
+              "=": "expr-string",
+              "parameters": ["messages.8"]
+            }
+          ]
+        }]
+      }],
+      "=": "comp-command",
+      "parameters": [
+        "announce8",
+        "",
+        "Announces 8th message of SimpleBroadcaster in config.yml",
+        "sa.announce.8",
+        "You do not have permission to run this command",
+        "/announce8"
+      ]
+    },
+    {
+      "children": [{
+        "=": "org.bukkit.Bukkit#broadcastMessage(java.lang.String)",
+        "parameters": [{
+          "=": "expr-config-value",
+          "parameters": [
+            {"=": "expr-plugin-config"},
+            {
+              "=": "expr-string",
+              "parameters": ["messages.9"]
+            }
+          ]
+        }]
+      }],
+      "=": "comp-command",
+      "parameters": [
+        "announce9",
+        "",
+        "Announces 9th message of SimpleBroadcaster in config.yml",
+        "sa.announce.9",
+        "You do not have permission to run this command",
+        "/announce9"
+      ]
+    },
+    {
+      "children": [{
+        "=": "org.bukkit.Bukkit#broadcastMessage(java.lang.String)",
+        "parameters": [{
+          "=": "expr-config-value",
+          "parameters": [
+            {"=": "expr-plugin-config"},
+            {
+              "=": "expr-string",
+              "parameters": ["messages.10"]
+            }
+          ]
+        }]
+      }],
+      "=": "comp-command",
+      "parameters": [
+        "announce10",
+        "",
+        "Announces 9th message of SimpleBroadcaster in config.yml",
+        "sa.announce.10",
+        "You do not have permission to run this command",
+        "/announce10"
+      ]
+    }
+  ],
+  "plugin.soft-dependencies": "",
+  "plugin.name": "SimpleAnnouncer",
+  "plugin.prefix": "sa",
+  "current-plugin-component": 1,
+  "plugin.author": "KaySee",
+  "plugin.description": "A simple Announcer Plugin",
+  "plugin.permissions": "",
+  "open-plugin-components": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "plugin.website": "kaysee.xyz"
+}

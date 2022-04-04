@@ -1,0 +1,65 @@
+name: "SimpleAnnouncer"
+version: "1.0"
+main: "vb.$simpleannouncer.PluginMain"
+api-version: 1.13
+authors: [KaySee]
+description: "A simple Announcer Plugin"
+prefix: "sa"
+website: "kaysee.xyz"
+commands:
+  announce:
+    description: "Main Command of SimpleAnnouncer"
+    permission: "sb.broadcast"
+    permission-message: "You do not have permission to run this command"
+    usage: "/broadcast"
+  announce1:
+    description: "Announces 1st message of SimpleBroadcaster in config.yml"
+    permission: "sa.announce.1"
+    permission-message: "You do not have permission to run this command"
+    usage: "/announce1"
+  announce2:
+    description: "Announces 2nd message of SimpleBroadcaster in config.yml"
+    permission: "sa.announce.2"
+    permission-message: "You do not have permission to run this command"
+    usage: "/announce2"
+  announce3:
+    description: "Announces 3rd message of SimpleBroadcaster in config.yml"
+    permission: "sa.announce.3"
+    permission-message: "You do not have permission to run this command"
+    usage: "/announce3"
+  announce4:
+    description: "Announces 4th message of SimpleBroadcaster in config.yml"
+    permission: "sa.announce.4"
+    permission-message: "You do not have permission to run this command"
+    usage: "/announce4"
+  announce5:
+    description: "Announces 5th message of SimpleBroadcaster in config.yml"
+    permission: "sa.announce.5"
+    permission-message: "You do not have permission to run this command"
+    usage: "/announce5"
+  announce6:
+    description: "Announces 6th message of SimpleBroadcaster in config.yml"
+    permission: "sa.announce.6"
+    permission-message: "You do not have permission to run this command"
+    usage: "/announce6"
+  announce7:
+    description: "Announces 7th message of SimpleBroadcaster in config.yml"
+    permission: "sa.announce.7"
+    permission-message: "You do not have permission to run this command"
+    usage: "/announce7"
+  announce8:
+    description: "Announces 8th message of SimpleBroadcaster in config.yml"
+    permission: "sa.announce.8"
+    permission-message: "You do not have permission to run this command"
+    usage: "/announce8"
+  announce9:
+    description: "Announces 9th message of SimpleBroadcaster in config.yml"
+    permission: "sa.announce.9"
+    permission-message: "You do not have permission to run this command"
+    usage: "/announce9"
+  announce10:
+    description: "Announces 9th message of SimpleBroadcaster in config.yml"
+    permission: "sa.announce.10"
+    permission-message: "You do not have permission to run this command"
+    usage: "/announce10"
+permissions:
